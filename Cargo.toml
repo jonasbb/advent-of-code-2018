@@ -7,3 +7,4 @@ authors = ["Jonas Bushart <jonas@bushart.org>"]
 [dependencies]
 aoc-runner = "0.1.0"
 aoc-runner-derive = "0.1.1"
+hashbrown = "0.1.6"
