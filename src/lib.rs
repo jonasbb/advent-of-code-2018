@@ -4,5 +4,6 @@ extern crate aoc_runner_derive;
 extern crate hashbrown;
 
 pub mod day01;
+pub mod day02;
 
 aoc_lib! { year = 2018 }
