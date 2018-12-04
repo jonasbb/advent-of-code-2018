@@ -2,19 +2,19 @@
 name = "advent-of-code-2018"
 version = "0.1.0"
 dependencies = [
- "aoc-runner 0.1.0 (registry+https://github.com/rust-lang/crates.io-index)",
- "aoc-runner-derive 0.1.1 (registry+https://github.com/rust-lang/crates.io-index)",
+ "aoc-runner 0.2.0-alpha1 (registry+https://github.com/rust-lang/crates.io-index)",
+ "aoc-runner-derive 0.2.0-alpha1 (registry+https://github.com/rust-lang/crates.io-index)",
  "hashbrown 0.1.6 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
 
 [[package]]
 name = "aoc-runner"
-version = "0.1.0"
+version = "0.2.0-alpha1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 
 [[package]]
 name = "aoc-runner-derive"
-version = "0.1.1"
+version = "0.2.0-alpha1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 dependencies = [
  "aoc-runner-internal 0.1.0 (registry+https://github.com/rust-lang/crates.io-index)",
@@ -119,8 +119,8 @@ version = "0.1.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 
 [metadata]
-"checksum aoc-runner 0.1.0 (registry+https://github.com/rust-lang/crates.io-index)" = "f9582962ee1abe7e86b9e1a6223f1424c9cf436e212f3c657df8300145260fad"
-"checksum aoc-runner-derive 0.1.1 (registry+https://github.com/rust-lang/crates.io-index)" = "8f29915219b0c2adc36f1c0737794374c39bea6f1768ff7ca5a3ce8b650cf6ec"
+"checksum aoc-runner 0.2.0-alpha1 (registry+https://github.com/rust-lang/crates.io-index)" = "949c5f28f0cce7b01f0e0cd1e891ce303c1f750793f4e2537f1bcd93c69e6ec7"
+"checksum aoc-runner-derive 0.2.0-alpha1 (registry+https://github.com/rust-lang/crates.io-index)" = "e48a72d6b0f3170c45768f55256edac527206a84bbd7b11ea61181c6ebf6624a"
 "checksum aoc-runner-internal 0.1.0 (registry+https://github.com/rust-lang/crates.io-index)" = "274b0ba7f3669a45ec0aaacf94eb032a749de880ab776091576cca94037c9982"
 "checksum byteorder 1.2.7 (registry+https://github.com/rust-lang/crates.io-index)" = "94f88df23a25417badc922ab0f5716cc1330e87f71ddd9203b3a3ccd9cedf75d"
 "checksum hashbrown 0.1.6 (registry+https://github.com/rust-lang/crates.io-index)" = "72d9de4ebc5b184289fc3db3a3c023b072e56c649e32fcfcd434636e7ba912d4"

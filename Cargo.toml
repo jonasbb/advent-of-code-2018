@@ -5,6 +5,6 @@ authors = ["Jonas Bushart <jonas@bushart.org>"]
 # edition = "2018"
 
 [dependencies]
-aoc-runner = "0.1.0"
-aoc-runner-derive = "0.1.1"
+aoc-runner = "0.2.0-alpha1"
+aoc-runner-derive = "0.2.0-alpha1"
 hashbrown = "0.1.6"
