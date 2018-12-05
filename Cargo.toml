@@ -8,3 +8,5 @@ authors = ["Jonas Bushart <jonas@bushart.org>"]
 aoc-runner = "0.2.0-alpha1"
 aoc-runner-derive = "0.2.0-alpha1"
 hashbrown = "0.1.6"
+misc_utils = "2.1.0"
+rayon = "1.0.3"
