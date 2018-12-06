@@ -72,7 +72,7 @@ pub fn solve_part2(input: &Vec<Claim>) -> u32 {
     unimplemented!()
 }
 
-fn count_coords(input: &Vec<Claim>) -> HashMap<(u32, u32), u32> {
+fn count_coords(input: &[Claim]) -> HashMap<(u32, u32), u32> {
     let iter = input.iter().flat_map(|claim| claim.iterate_coords());
     let mut res = HashMap::new();
     for (x, y) in iter {
