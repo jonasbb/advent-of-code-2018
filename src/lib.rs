@@ -1,3 +1,5 @@
+#![feature(const_str_len)]
+
 extern crate aoc_runner;
 #[macro_use]
 extern crate aoc_runner_derive;
@@ -11,5 +13,6 @@ pub mod day03;
 pub mod day04;
 pub mod day05;
 pub mod day06;
+pub mod day07;
 
 aoc_lib! { year = 2018 }
