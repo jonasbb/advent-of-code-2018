@@ -58,19 +58,18 @@ struct Direction {
 }
 
 #[aoc(day10, part1)]
-pub fn solve_part1(input: &[Point]) {
+pub fn solve_part1(input: &[Point]) -> String {
     let mut input = input.to_vec();
     for seconds in 0.. {
         if let Some(res) = print_current_step(&input) {
-            println!("{}", res);
-            println!(
-                "It would take {} seconds for the message to appear",
-                seconds
+            return format!(
+                "\n{}\n\nIt would take {} seconds for the message to appear",
+                res, seconds
             );
-            break;
         }
         input.iter_mut().for_each(|p| p.step());
     }
+    unreachable!()
 }
 
 fn print_current_step(data: &[Point]) -> Option<String> {
@@ -141,5 +140,5 @@ position=<    -3,      6> velocity=< 2, -1>
 #[test]
 fn test_part_1() {
     let processed = generator(TEST_INPUT);
-    let res = solve_part1(&processed);
+    solve_part1(&processed);
 }
