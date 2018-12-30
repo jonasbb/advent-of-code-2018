@@ -7,6 +7,8 @@ extern crate hashbrown;
 #[macro_use]
 extern crate intrusive_collections;
 extern crate misc_utils;
+#[cfg(test)]
+extern crate pretty_assertions;
 extern crate rayon;
 
 pub mod day01;
@@ -21,5 +23,6 @@ pub mod day09;
 pub mod day10;
 pub mod day11;
 pub mod day12;
+pub mod day13;
 
 aoc_lib! { year = 2018 }
